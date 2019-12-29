@@ -5,9 +5,9 @@ class Hero
   @@all = []
   
   def initialize(args)
-    @name = args[:name].to_s
-    @power = args[:power].to_s
-    @biography = args[:biography].to_s
+    @name = args[:name]
+    @power = args[:power]
+    @biography = args[:biography]
     @@all << self
   end
   
